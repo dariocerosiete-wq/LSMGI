@@ -1,3 +1,3 @@
-# Repo LSMGI
+# Repo
 
 repo para ejemplos de aula
