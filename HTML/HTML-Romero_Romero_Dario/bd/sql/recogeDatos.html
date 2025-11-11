@@ -12,8 +12,32 @@
         <li><a href="../../index.html">Página inicial</a></li>
         <li><a href="recogeDatos.html">Recogida de datos</a> </li>
         <li><a href="../resultados.html">Tabla de resultados</a></li>
-        <li><a href="/blog/blog.html">Nuestro blog</a></li>
+        <li><a href="../../blog/blog.html">Nuestro blog</a></li>
     </ul> 
         </nav> 
+<form action="/procesa/altas.php" method="post" enctype="multipart/form-data">
+    <h1>Formulario de recogida de datos</h1>
+<fieldset>
+    <legend>Datos Compras</legend>
+<p>
+    <label>Numero de unidades
+        <input type="number" name="unidades" value="1" max="3000" min="1" step="any">
+    </label>
+</p>
+
+
+
+
+</fieldset>
+
+<fieldset>
+
+    <legend>Datos Personales</legend>
+
+</fieldset>
+   <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</form>
+
     </body>
     </html>
