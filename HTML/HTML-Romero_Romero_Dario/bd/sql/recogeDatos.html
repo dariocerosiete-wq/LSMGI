@@ -27,11 +27,26 @@
     <h1>Formulario de recogida de datos</h1>
 <fieldset>
     <legend>Datos Compras</legend>
+    <p>
+            <label><input type="radio" name="mmarca" value="A">Marca A</label>
+
+            <label><input type="radio" name="mmarca" value="B">Marca B</label>
+
+            <label><input type="radio" name="mmarca" value="C">Marca C</label>
+
+            <label><input type="radio" name="mmarca" value="D">Marca D</label>
+    </p>
 <p>
     <label>Numero de unidades
         <input type="number" name="unidades" value="1" max="3000" min="1" step="any">
     </label>
 </p>
+
+    <p> DNI Y FACTURA<br>
+        <label>
+            <input type="file" name="FIVHEROS">
+        </label>
+    </p>
 
 
 
@@ -41,6 +56,13 @@
 <fieldset>
 
     <legend>Datos Personales</legend>
+    <p>
+        <label>Usuario<input type="email" name="correo" placeholder="Correo Electronico"></label>
+    </p>
+
+    <p>
+        <label>Código<input type="text" name="codigo" required></label>
+    </p>
 
 </fieldset>
    <input type="submit" value="Enviar">
