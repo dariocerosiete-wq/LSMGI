@@ -1,0 +1,35 @@
+/* avanzados.css */
+
+/* atributos */
+abbr[title] {
+    background-color: red;
+}
+
+/* sibling */
+h3 ~ h4 {
+    background-color: yellow;
+}
+
+
+
+/* adyacente */
+h1 + p,
+h2 + p {
+ background-color:  lime;
+}
+
+article > h2 {
+    background-color: lightcoral;
+}
+
+/* hijo */
+article > p {
+    color:red;
+    text-align: center;
+}
+
+article p {
+    color: blue;
+    font-style: italic;
+}
+
